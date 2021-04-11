@@ -13,7 +13,7 @@
 
 ## Live Project
 
-Visit [website]() and enjoy the food festival!
+Visit [website](https://rosefrancis-tech.github.io/food-festival/) and enjoy the food festival!
 
 ## Built With
 * [JavaScript](https://www.javascript.com/)
