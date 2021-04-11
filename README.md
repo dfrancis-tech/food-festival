@@ -26,6 +26,7 @@ Visit [website](https://rosefrancis-tech.github.io/food-festival/) and enjoy the
 * [image-webpack-loader](https://www.npmjs.com/package/image-webpack-loader)
 * [SW-precache-webpack](https://www.npmjs.com/package/sw-precache-webpack-plugin)
 * [webpack-PWA-manifest](https://www.npmjs.com/package/webpack-pwa-manifest)
+* [javascript minifier](https://javascript-minifier.com/)
 
  ## User Story
 <details>
