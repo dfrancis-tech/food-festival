@@ -21,6 +21,7 @@ Visit [website](https://rosefrancis-tech.github.io/food-festival/) and enjoy the
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 * [webpack](https://webpack.js.org/)
+* [wedpack-cli](https://www.npmjs.com/package/webpack-cli)
 * [webpack-bundle-analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)
 * [file loader](https://www.npmjs.com/package/file-loader)
 * [image-webpack-loader](https://www.npmjs.com/package/image-webpack-loader)
@@ -56,4 +57,4 @@ The following image shows the web application's appearance and functionality.
 
 The completed project is uploaded in Github.  
 Repository link:  [GitHub](https://github.com/rosefrancis-tech/food-festival)  
-Project Board link:  [GitHub Projects]()
+Project Board link:  [GitHub Projects](https://github.com/rosefrancis-tech/food-festival/projects/1?fullscreen=true)
