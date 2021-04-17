@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/rosefrancis-tech/food-festival#readme",
   "devDependencies": {
+    "file-loader": "^6.2.0",
     "webpack": "^5.31.2",
     "webpack-bundle-analyzer": "^4.4.1",
     "webpack-cli": "^4.6.0"
