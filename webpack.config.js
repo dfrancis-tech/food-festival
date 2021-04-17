@@ -22,7 +22,17 @@ module.exports = {
           test: /\.jpg$/i,
           use: [
             {
-              loder: 'file-loader'
+              loader: 'file-loader',
+              // return the name of the image output file name with extension
+              options: {
+                name (file) {
+                  return "[path][name].[ext]"
+                },
+                //  property to change url
+                publicPath: function(url) {
+                  return url.replace("../", "/assets/")
+                }
+              }
             }
           ]
         }
