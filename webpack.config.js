@@ -14,7 +14,33 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: "[name].bundle.js"
-      },
+    },
+    // add file-loader to webpack configuration
+    module: {
+      rules: [
+        {
+          test: /\.jpg$/i,
+          use: [
+            {
+              loader: 'file-loader',
+              // return the name of the image output file name with extension
+              options: {
+                name (file) {
+                  return "[path][name].[ext]"
+                },
+                //  property to change url
+                publicPath: function(url) {
+                  return url.replace("../", "/assets/")
+                }
+              }
+            },
+            {
+              loader: 'image-webpack-loader'
+            }
+          ]
+        }
+      ]
+    },
     plugins: [
       new webpack.ProvidePlugin({
         $: "jquery",
