@@ -33,6 +33,9 @@ module.exports = {
                   return url.replace("../", "/assets/")
                 }
               }
+            },
+            {
+              loader: 'image-webpack-loader'
             }
           ]
         }
