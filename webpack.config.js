@@ -14,7 +14,20 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: "[name].bundle.js"
-      },
+    },
+    // add file-loader to webpack configuration
+    module: {
+      rules: [
+        {
+          test: /\.jpg$/i,
+          use: [
+            {
+              loder: 'file-loader'
+            }
+          ]
+        }
+      ]
+    },
     plugins: [
       new webpack.ProvidePlugin({
         $: "jquery",
